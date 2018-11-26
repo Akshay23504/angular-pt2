@@ -5,15 +5,11 @@
   "scripts": {
     "ng": "ng",
     "start": "node server.js",
-    "build": "ng build --prod",
+    "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
     "postinstall": "ng build --aot -prod"
-  },
-  "engines": {
-    "nodes": "11.2.0",
-    "npm": "6.4.1"
   },
   "private": true,
   "dependencies": {
@@ -33,7 +29,7 @@
     "rxjs": "^5.5.6",
     "zone.js": "^0.8.19",
     "typescript": "~2.5.3",
-    "express": "^4.16.4"
+    "express": "^4.16.2"
   },
   "devDependencies": {
     "@angular/cli": "~1.7.4",
@@ -54,5 +50,9 @@
     "ts-node": "~4.1.0",
     "tslint": "~5.9.1",
     "typescript": "~2.5.3"
+  },
+  "engines": {
+    "nodes": "11.2.0",
+    "npm": "6.4.1"
   }
 }
