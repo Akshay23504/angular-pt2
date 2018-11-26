@@ -14,7 +14,7 @@
   "engines": {
     "nodes": "11.2.0",
     "npm": "6.4.1"
-  }
+  },
   "private": true,
   "dependencies": {
     "@angular/cli": "~1.7.4",
