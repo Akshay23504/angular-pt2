@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
-import { AppRoutingModule } from './/app-routing.module';
+import { AppRoutingModule } from './app-routing.module';
 import { CustomerDashboardComponent } from './customer-dashboard/customer-dashboard.component';
 
 
