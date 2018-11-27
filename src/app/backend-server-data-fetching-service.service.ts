@@ -10,8 +10,8 @@ const httpOptions = {
   headers: new HttpHeaders({'Content-Type' : 'application/x-www-form-urlencoded'})
 };
 
-var baseUrl = "https://ice-cream-conection.herokuapp.com";
-baseUrl = "http://localhost:8080";
+const baseUrl = "https://ice-cream-conection.herokuapp.com";
+// baseUrl = "http://localhost:8080";
 const customersUrl = baseUrl+"/truck/getCustomers";
 const trucksUrl = baseUrl+"/customer/getTrucks";
 const sendCustomersUrl = baseUrl+"/truck/sendCustomers";
